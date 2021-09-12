@@ -35,12 +35,44 @@ export const projects = [
     visit: 'https://google.com',
     id: 3,
   },
+
+  {
+    title: 'WebRTC App',
+    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      image: '/images/3.jpg',
+      tags: ['React', 'WebRTC'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+
+  {
+    title: 'WebRTC App',
+    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      image: '/images/3.jpg',
+      tags: ['React', 'WebRTC'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+
+  {
+    title: 'WebRTC App',
+    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      image: '/images/3.jpg',
+      tags: ['React', 'WebRTC'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
 ];
 
+
+
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
+  { year: 2015, text: 'Started my journey at Munster Technological University.', },
+  { year: 2018, text: 'Began workplacement as a front end developer at a fintech company.', },
+  { year: 2019, text: 'Graduated with a 1st class honours from MTU, landed first job as a software engineer.', },
+  { year: 2020, text: 'Started building side projects and uploading to Github.', },
   { year: 2021, text: 'Started my own platform', },
 ];
