@@ -13,7 +13,8 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        The purpose of this portfolio is to showcase some applications I have designed, developed and tested over the past few years. These applications
+        are small to medium in nature with the core focus on continous learning in the ever growing digital economy.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
