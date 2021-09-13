@@ -57,6 +57,20 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Project Management</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Managing Projects/Tasks <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
     </List>
     <SectionDivider colorAlt />
   </Section>
