@@ -46,9 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      My name is Gavin Everett. A 23 year old Software Engineer from Kerry, Ireland. I have just under 3 years 
-      experience as a software engineer. I graduated from MTU with a 1st class honours in Computing with Software Development. I am currently
-      seeking to join a front end development team where I can showcase and enhance my skills in the area.
+      My name is Gavin Everett. A 23 year old Software Engineer from Kerry, Ireland.  I graduated from MTU with a 1st class honours in Computing with Software Development.
+      I have just under 3 years experience as a software engineer. In those 3 years I have managed projects
+      small and large and delivered on time. I am currently seeking to join a front end development team where I can showcase and enhance my skills.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
