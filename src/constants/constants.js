@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'CryptoCoin',
-    description: "The usecase for this application was to create a minature Crypto application where I could view live price differernces and other metadata between each coin.",
+    description: "The usecase for this application was to create a minature Crypto application where I could view live price differences and other metadata between each coin.",
       image: '/images/3.jpg',
       tags: ['React', 'API'],
     source: 'https://github.com/gavinev98/cryptocoin',
