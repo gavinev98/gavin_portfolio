@@ -6,6 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Certifications from '../components/Certifications/Certifications';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
+      <Certifications />
       <Timeline />
       <Acomplishments />
     </Layout>
