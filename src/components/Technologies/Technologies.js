@@ -1,12 +1,13 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FiUserCheck } from 'react-icons/fi';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Technologies & Skills</SectionTitle>
     <SectionText>
      I have worked with a wide range of technologies in both areas of
      front and back end development.
@@ -60,7 +61,7 @@ const Technologies = () =>  (
 
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <FiUserCheck size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Project Management</ListTitle>
