@@ -74,5 +74,5 @@ export const TimeLineData = [
   { year: 2018, text: 'Began workplacement as a front end developer at a fintech company.', },
   { year: 2019, text: 'Graduated with a 1st class honours from MTU, landed first job as a software engineer.', },
   { year: 2020, text: 'Started building side projects and uploading to Github.', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2021, text: 'Continuation of learning.', },
 ];

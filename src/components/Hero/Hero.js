@@ -14,7 +14,7 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
         The purpose of this portfolio is to showcase some applications I have designed, developed and tested over the past few years. These applications
-        are small to medium in nature with the core focus on continous learning.
+        are small to medium in nature with the core focus on continuous learning.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
