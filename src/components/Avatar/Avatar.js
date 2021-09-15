@@ -5,7 +5,7 @@ import CustomAVI from './gavinscustomavi';
 
 const Avatar = () => {
     return (
-      <CustomAVI />
+      <CustomAVI height={50} />
     );
 };
 

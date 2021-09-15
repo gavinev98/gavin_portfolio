@@ -9,8 +9,10 @@ import { Section } from '../styles/GlobalComponents';
 import Certifications from '../components/Certifications/Certifications';
 import { useState, useEffect } from 'react';
 import Typical from 'react-typical';
-import { LoaderStyle } from './indexStyles';
+import { LoaderStyle, WrapperStyle } from './indexStyles';
 import Avatar from '../components/Avatar/Avatar';
+import { AvatarStyles } from '../components/Avatar/AvatarStyles';
+
 
 
 
@@ -34,8 +36,11 @@ const Home = () => {
 
     <div>
       {loading ? 
+      <WrapperStyle>
+        <AvatarStyles>
+       <Avatar />
+       </AvatarStyles>
       <LoaderStyle>
-      <Avatar />
       <Typical
       steps={['Hello!', 1000,
        'My name is Gavin Everett', 2000,
@@ -44,6 +49,7 @@ const Home = () => {
       wrapper="b"
     />
     </LoaderStyle>
+    </WrapperStyle>
     :
 
     <Layout>
