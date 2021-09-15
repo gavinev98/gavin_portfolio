@@ -7,20 +7,52 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import Certifications from '../components/Certifications/Certifications';
+import { useState, useEffect } from 'react';
+import Typical from 'react-typical';
 
 const Home = () => {
+
+  //create state for loading screen
+  const[loading, setLoading] = useState(false);
+
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 8000)
+    }, []);
+
+
+
+
   return (
+
+    <div>
+      {loading ? 
+      <Typical
+      steps={['Hello', 1000, 'Hello world!', 500]}
+      loop={1}
+      wrapper="p"
+    />
+    :
+
     <Layout>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      <Technologies />
-      <Certifications />
-      <Timeline />
-      <Acomplishments />
+    <Section grid>
+    <Hero />
+    <BgAnimation />
+    </Section>
+    <Projects />
+    <Technologies />
+    <Certifications />
+    <Timeline />
+    <Acomplishments />   
     </Layout>
+   
+    }
+
+
+  </div>
   );
 };
 
