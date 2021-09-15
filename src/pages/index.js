@@ -9,6 +9,8 @@ import { Section } from '../styles/GlobalComponents';
 import Certifications from '../components/Certifications/Certifications';
 import { useState, useEffect } from 'react';
 import Typical from 'react-typical';
+import { LoaderStyle } from './indexStyles';
+
 
 const Home = () => {
 
@@ -30,11 +32,13 @@ const Home = () => {
 
     <div>
       {loading ? 
+      <LoaderStyle>
       <Typical
       steps={['Hello', 1000, 'Hello world!', 500]}
       loop={1}
       wrapper="p"
     />
+    </LoaderStyle>
     :
 
     <Layout>
