@@ -7,7 +7,5 @@ align-items: center;
 `;
 
 export const WrapperStyle = styled.div `
-
 margin-top:30%;
-
 `
