@@ -10,6 +10,8 @@ import Certifications from '../components/Certifications/Certifications';
 import { useState, useEffect } from 'react';
 import Typical from 'react-typical';
 import { LoaderStyle } from './indexStyles';
+import Avatar from '../components/Avatar/Avatar';
+
 
 
 const Home = () => {
@@ -22,7 +24,7 @@ const Home = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 8000)
+    }, 10000)
     }, []);
 
 
@@ -33,10 +35,13 @@ const Home = () => {
     <div>
       {loading ? 
       <LoaderStyle>
+      <Avatar />
       <Typical
-      steps={['Hello', 1000, 'Hello world!', 500]}
+      steps={['Hello!', 1000,
+       'My name is Gavin Everett', 2000,
+       'Welcome to my portfolio', 2000]}
       loop={1}
-      wrapper="p"
+      wrapper="b"
     />
     </LoaderStyle>
     :
