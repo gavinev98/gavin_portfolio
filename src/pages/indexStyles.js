@@ -14,5 +14,6 @@ export const SpinnerStyle = styled.div`
 text-align:center;
 justify-content: center;
 align-items: center;
+padding-bottom:1%;
 
 `

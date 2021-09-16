@@ -37,12 +37,13 @@ const Home = () => {
 
     <div>
       {loading ? 
+
         <WrapperStyle>
         <AvatarStyles>
        <Avatar />
        </AvatarStyles>
       <SpinnerStyle>
-       <Loader type="ThreeDots" color="#00BFFF" height={50} width={50} timeout={9000} />
+       <Loader type="BallTriangle" color="#00BFFF" height={50} width={50} timeout={10000} />
        </SpinnerStyle>
       <LoaderStyle>
       <Typical
@@ -54,6 +55,7 @@ const Home = () => {
     />
     </LoaderStyle>
     </WrapperStyle>
+
     :
 
     <Layout>
