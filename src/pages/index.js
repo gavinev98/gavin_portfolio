@@ -9,9 +9,12 @@ import { Section } from '../styles/GlobalComponents';
 import Certifications from '../components/Certifications/Certifications';
 import { useState, useEffect } from 'react';
 import Typical from 'react-typical';
-import { LoaderStyle, WrapperStyle } from './indexStyles';
+import { LoaderStyle, WrapperStyle, SpinnerStyle } from './indexStyles';
 import Avatar from '../components/Avatar/Avatar';
 import { AvatarStyles } from '../components/Avatar/AvatarStyles';
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
+
 
 
 
@@ -30,16 +33,17 @@ const Home = () => {
     }, []);
 
 
-
-
   return (
 
     <div>
       {loading ? 
-      <WrapperStyle>
+        <WrapperStyle>
         <AvatarStyles>
        <Avatar />
        </AvatarStyles>
+      <SpinnerStyle>
+       <Loader type="ThreeDots" color="#00BFFF" height={50} width={50} timeout={9000} />
+       </SpinnerStyle>
       <LoaderStyle>
       <Typical
       steps={['Hello!', 1000,
