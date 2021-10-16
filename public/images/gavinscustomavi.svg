@@ -7,7 +7,7 @@
       <rect width="132" height="132"/>
     </clipPath>
   </defs>
-  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+  <g id="custom_1" data-name="custom – 1" clipPath="url(#clip-custom_1)">
     <rect width="132" height="132" fill="rgba(255,255,255,0)"/>
     <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="60.5" cy="61" rx="60.5" ry="61" transform="translate(6 5)" fill="#ffeaa7"/>
     <rect id="Image_1" data-name="Image 1" width="72" height="90" transform="translate(31 20)" fill="url(#pattern)"/>
