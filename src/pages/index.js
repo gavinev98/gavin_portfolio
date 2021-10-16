@@ -9,7 +9,7 @@ import { Section } from '../styles/GlobalComponents';
 import Certifications from '../components/Certifications/Certifications';
 import { useState, useEffect } from 'react';
 import Typical from 'react-typical';
-import { LoaderStyle, WrapperStyle, SpinnerStyle } from './indexStyles';
+import { LoaderStyle, WrapperStyle, SpinnerStyle } from './../styles/indexStyles';
 import Avatar from '../components/Avatar/Avatar';
 import { AvatarStyles } from '../components/Avatar/AvatarStyles';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";

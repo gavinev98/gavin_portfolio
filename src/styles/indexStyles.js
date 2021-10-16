@@ -22,5 +22,3 @@ align-items: center;
 padding-bottom:1%;
 
 `
-
-
