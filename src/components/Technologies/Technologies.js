@@ -22,7 +22,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             HTML/CSS/Javascript <br />
-            Boostrap <br />
+            Bootstrap <br />
             Chrome DevTools <br />
             Github <br />
             React.js <br />
