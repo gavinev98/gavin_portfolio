@@ -71,8 +71,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2015, text: 'Started my journey at Munster Technological University.', },
-  { year: 2018, text: 'Began workplacement as a front end developer at a fintech company.', },
+  { year: 2018, text: 'Began work placement as a front end developer at a fintech company.', },
   { year: 2019, text: 'Graduated with a 1st class honours from MTU, landed first job as a software engineer.', },
-  { year: 2020, text: 'Started building side projects and uploading to Github.', },
+  { year: 2020, text: 'Started building side projects with emerging languages.', },
   { year: 2021, text: 'Continuation of learning.', },
 ];
