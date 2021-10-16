@@ -4,7 +4,10 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+
+
 const Hero = (props) => (
+  
   <>
     <Section row nopadding>
       <LeftSection>
@@ -16,7 +19,7 @@ const Hero = (props) => (
         The purpose of this portfolio is to showcase some applications I have designed, developed and tested over the past few years. These applications
         are small to medium in nature with the core focus on continuous learning.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={()=> window.open("https://www.linkedin.com/in/gavin-everett/", "_blank")} >Connect</Button>
       </LeftSection>
     </Section>
   </>
