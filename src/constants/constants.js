@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Memories',
     description: "This application was built using MERN Stack. The use case for this application was to create a social media to store memories of the past. Through the development of this I got a greater understanding of how to use these technologies together.",
-      image: '/domains/gavineverett.com/public_html/images/memoriesportfolio.PNG',
+      image: '/images/memoriesportfolio.PNG',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/gavinev98/memories_portfolio',
     visit: 'https://github.com/gavinev98/memories_portfolio',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Sello',
     description:"The purpose of this application was to create an e-commerce application where users can buy items from the store and pay for items using Stripe.",
-    image: '/domains/gavineverett.com/public_html/images/sello_app.PNG',
+    image: '/images/sello_app.PNG',
     tags: ['React', 'JavaScript', 'Stripe'],
     source: 'https://google.comhttps://github.com/gavinev98/sello',
     visit: 'https://github.com/gavinev98/sello',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'CryptoCoin',
     description: "The use case for this application was to create a minature Crypto application where I could view live price differences and other metadata between each coin.",
-      image: '/domains/gavineverett.com/public_html/images/cryptoapp_final.PNG',
+      image: '/images/cryptoapp_final.PNG',
       tags: ['React', 'API'],
     source: 'https://github.com/gavinev98/cryptocoin',
     visit: 'https://github.com/gavinev98/cryptocoin',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'CoronaCheckEU',
     description: "The use case for this application was to create a covid application for Europe which would display different metrics such as cases, deaths, vaccinations. Personally used for travel.",
-    image: '/domains/gavineverett.com/public_html/images/corona_check.png',
+    image: '/images/corona_check.png',
     tags: ['React', 'API'],
     source: 'https://github.com/gavinev98/CoronaCheckEU',
     visit: 'https://github.com/gavinev98/CoronaCheckEU',
@@ -39,7 +39,7 @@ export const projects = [
   {
     title: 'BurgerShop',
     description: "The use case for this application was to allow you to create a burger and purchase it. This was one of the first projects I started doing as part of a react udemy course.",
-      image: '/domains/gavineverett.com/public_html/images/burgershopapp.PNG',
+      image: '/images/burgershopapp.PNG',
       tags: ['React'],
     source: 'https://github.com/gavinev98/ReactJS-Axios-BurgerShop',
     visit: 'https://github.com/gavinev98/ReactJS-Axios-BurgerShop',
@@ -49,7 +49,7 @@ export const projects = [
   {
     title: 'ToDo',
     description: "The use case for this application was to allow me to keep track of my list of items to do each day.",
-      image: '/domains/gavineverett.com/public_html/images/toDo_1.PNG',
+      image: '/images/toDo_1.PNG',
       tags: ['React'],
     source: 'https://github.com/gavinev98/ToDoApp-ReactJS',
     visit: 'https://github.com/gavinev98/ToDoApp-ReactJS',
